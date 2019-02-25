@@ -5,7 +5,6 @@ var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost:27017/shopping', {useNewUrlParser: true })
 
-
 var products = [
     new Product({
         imagePath: 'https://pinchofyum.com/wp-content/uploads/Best-Easy-Pasta-Salad-Recipe.jpg',
